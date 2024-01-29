@@ -1,4 +1,4 @@
 # learn-js
-Esha Acharya
+JavaScript tutorial repo
 
-### REPLACE WITH YOUR FULL NAME
+### Esha Acharya
