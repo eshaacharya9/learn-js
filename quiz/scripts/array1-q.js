@@ -10,7 +10,7 @@ window.onload = function() {
     btn.onclick = () => {
     // we will only allow a term to be entered if the search input isn't empty
       if (inp.value !== '') {
-        myHistory.unshift(inp.value);
+              myHistory.unshift(inp.value);
               // empty the list so that we don't display duplicate entries
               // the display is regenerated every time a search term is entered.
               list.innerHTML = '';
