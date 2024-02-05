@@ -33,6 +33,8 @@ function edit(node) {
   let newNode = document.createElement("input");
   newNode.type = 'text';
   newNode.placeholder = 'Enter Cell (x,y)'
+  node.innerHTML = '';
+  node.appendChild(newNode);
 }
 
 function addTable() {
