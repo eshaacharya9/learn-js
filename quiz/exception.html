@@ -26,13 +26,13 @@
       const squareRoots = numbers.map(number => {
         try {
           if(number<0) {
-            throw new Error('Cannot cal');
+            throw new Error('Cannot calculate square root of negative number');
           }
             return Math.sqrt(number);
            
       }
       catch (err) {
-        console.log('error calculating for ${number}');
+        console.error(`Error calculating square root for ${number}: ${err.message}`);
         return NaN;
       }
     });
